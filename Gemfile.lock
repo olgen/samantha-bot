@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/olgen/lita-samantha.git
-  revision: 3b133257b57b49cf0aebc459f3edac191da61978
+  revision: ea78ce50822be4277b2346f99c0b3623612623b2
   specs:
     lita-samantha (0.1.0)
       lita (>= 4.4)
@@ -15,6 +15,10 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    byebug (5.0.0)
+      columnize (= 0.9.0)
+    coderay (1.1.0)
+    columnize (0.9.0)
     eventmachine (1.0.7)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
@@ -54,6 +58,7 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.4.2)
       multi_json
+    method_source (0.8.2)
     minitest (5.7.0)
     multi_json (1.11.2)
     multi_xml (0.5.5)
@@ -72,12 +77,20 @@ GEM
       zip
     net-http-persistent (2.9.4)
     os (0.9.6)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.2.0)
+      byebug (~> 5.0)
+      pry (~> 0.10)
     puma (2.12.2)
     rack (1.6.4)
     rb-readline (0.5.3)
     redis (3.2.1)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
+    slop (3.6.0)
     thor (0.19.1)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
@@ -96,3 +109,4 @@ DEPENDENCIES
   lita
   lita-samantha!
   lita-slack
+  pry-byebug
