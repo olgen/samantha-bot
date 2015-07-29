@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/olgen/lita-samantha.git
-  revision: ea78ce50822be4277b2346f99c0b3623612623b2
+  revision: 237453ba47347f3476a5c0a5b85978c54131fdeb
   specs:
     lita-samantha (0.1.0)
       lita (>= 4.4)
