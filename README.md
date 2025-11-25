@@ -1,2 +1,2 @@
-# samantha-bot
-A chat bot to use the Samantha knowledge base
+# Free AI at api.airforce
+https://discord.gg/AJDsM7jtbq
